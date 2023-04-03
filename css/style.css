@@ -1,0 +1,127 @@
+:root {
+    --white-color: rgb(255, 255, 255);
+    --bwhite-color: rgb(235, 236, 236);
+    --grey-color: rgb(209, 209, 209);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem 0 2rem;
+    background: rgb(2, 47, 210);
+    background: linear-gradient(180deg, rgba(2, 47, 210, 1) 10%, rgba(169, 138, 246, 1) 100%);
+}
+
+/* titulos */
+h2 {
+    font-weight: 500;
+    font-size: 18px;
+    /* background-color: rgb(225, 253, 228); */
+}
+
+/* informe table */
+.sections-app {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    padding: 1rem 1rem 1rem;
+    background-color: var(--bwhite-color);
+}
+
+#inform-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#section-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    /* border: 1px solid red; */
+}
+
+#section-input input {
+    width: 60px;
+    font-size: 1.5rem;
+    text-align: center;
+    /* border: 1px solid var(--grey-color); */
+    border: 0;
+    border-bottom: 1px solid var(--grey-color);
+    background-color: transparent;
+}
+
+#operation {
+    border: 0;
+    border-bottom: 1px solid var(--grey-color);
+    background-color: transparent;
+    font-weight: 500;
+    transition: 100ms;
+}
+
+#section-input input::placeholder {
+    font-size: 1rem;
+    color: rgb(185, 182, 182);
+}
+
+#section-btn button {
+    width: 80px;
+    padding: .5rem 0rem;
+    border-radius: 5px;
+    border: 1px solid var(--grey-color);
+    transition: 500ms;
+    font-weight: 500;
+}
+
+#section-btn button:hover {
+    background-color: var(--white-color);
+    box-shadow: black;
+}
+
+/* resultado tabela */
+#table-result {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#table-values {
+    border: 1px solid rgb(224, 28, 28);
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    /* gap: 1ren; */
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    margin-bottom: 2px;
+    padding: .3rem 1rem;
+    transition: 500ms;
+    font-size: 1.3rem;
+
+}
+
+.row:hover {
+    background-color: var(--white-color);
+}
+
+/* roda pé */
+#footer {
+    height: 75px;
+}

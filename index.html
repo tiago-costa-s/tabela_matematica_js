@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Matematica</title>
+    <link rel="stylesheet" href="/css/style.css">
+    </link>
+    <script src="./js/teste.js" defer></script>
+    <!-- <script src="./js/script.js" defer></script> -->
+</head>
+
+<body>
+    <div id="container">
+        <!-- informações para criar a tabela -->
+        <div class="sections-app" id="inform-table">
+            <h2 id="inform-title">Informe a Tabela e o seu tamanho</h2>
+            <div id="section-input">
+                <div class="box-input">
+                    <label for="">Tabela:</label>
+                    <input type="number" id="number-table" value="1" min="1" max="10" placeholder=" ex:05">
+                </div>
+                <div class="box-input">
+                    <label for="">Tamanho:</label>
+                    <input type="number" id="range-number" value="10" min="1" max="100" placeholder=" ex:10">
+                </div>
+            </div>
+            <select name="operation" id="operation">
+                <option value="+" id="som">Soma</option>
+                <option value="-" id="sub">Subtração</option>
+                <option value="x" id="mult">Multiplicação</option>
+                <option value="&divide" id="div">Divisão</option>
+            </select>
+            <div id="section-btn">
+                <button id="btn-generate">Gerar</button>
+                <button id="btn-reset">Zerar</button>
+            </div>
+        </div>
+        <!-- resultado da tabela -->
+        <div class="sections-app" id="table-result">
+            <h2 id="table-title">Tabela do Número<span></span></h2>
+            <div id="table"></div>
+        </div>
+    </div>
+</body>
+
+</html>
