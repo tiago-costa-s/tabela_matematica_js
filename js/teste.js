@@ -16,9 +16,9 @@ const generateTable = (rangeN, rangeNumber) => {
     table.innerHTML = "";
     tableResult.style.display = "flex";
     // let i;
-    for (i = 1; i <= rangeNumber; i++) {
+    for (let i = 1; i <= rangeNumber; i++) {
         // const result = rangeN * i;
-
+        let result = 0;
         if (operation.value == "+") {
             result = rangeN + i;
         }
@@ -30,17 +30,29 @@ const generateTable = (rangeN, rangeNumber) => {
         }
         else {
             result = rangeN / i;
-            Number.isInteger(result);
+            if (Number.isInteger(result)) {
+                result;
+            } else {
+                result = "n/a";
+                return result;
+            }
         }
-        console.log(result);
-        // variavel que recebe um valor em formato de string.
-        const template =
+
+        // variavel que recebe um valor em formato de string.   
+        let template =
             `<div id="table-values">
                 <div class="row">
                     <div class="operation">${rangeN} ${operation.value} ${i} =</div>
                     <div class="result">  ${result}</div>
                 </div>
             </div>`;
+
+        // verifica se o resultado e um numero inteiro.
+        if (result != "n/a") {
+            template;
+        } else {
+            template = ``;
+        }
 
         const parser = new DOMParser();
 
@@ -50,25 +62,18 @@ const generateTable = (rangeN, rangeNumber) => {
 
         table.appendChild(row);
     }
-
     tableTitle.innerHTML = ": " + rangeN;
 }
 
 // Eventos
 // gerar tabela
 btnGenerateTable.addEventListener("click", (event) => {
-
     const numberTable = +numberT.value;
     const rangeNumber = +rangeN.value;
 
     // validação de campo vazio.
-    if (!numberTable || !rangeNumber);
-
-    if (numberTable > 10) {
-        console.log("Numero maximo 100;");
-    } else {
-        generateTable(numberTable, rangeNumber);
-    }
+    if (!numberTable || !rangeNumber) return;
+    generateTable(numberTable, rangeNumber);
 });
 
 // zerar tabela
