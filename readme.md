@@ -5,4 +5,4 @@
 - CSS 3
 - Java Script
 
-![](https://i.postimg.cc/26sHDrSJ/tela1.jpg)
+![](https://i.postimg.cc/9MXh3PzK/tela1.jpg)
