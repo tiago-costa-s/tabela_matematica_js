@@ -17,4 +17,4 @@ A tabuada foi criada utilizando o java script puro.
 ### Tabela Dinâmica
 ![](https://i.postimg.cc/D03Jry67/tela3.jpg)
 
-![](https://i.postimg.cc/ZRBs9j71/tela4.jpg)
+![](https://i.postimg.cc/kXm0xxPk/tela4.jpg)
