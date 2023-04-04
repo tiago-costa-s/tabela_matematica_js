@@ -4,6 +4,7 @@
 - HTML 5
 - CSS 3
 - Java Script
+A tabuada foi criada utilizando o java script puro.
 
 ![](https://i.postimg.cc/d1WmnFzp/tela1.jpg)
 
