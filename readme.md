@@ -2,7 +2,11 @@
 
 ## Tecnologias
 
-A tabuada foi criada utilizando o java script puro.
+Claro! Esse projeto consiste em uma tabela matemática que permite ao usuário informar um número e o tamanho da tabela desejada. Além disso, é possível escolher uma das quatro operações matemáticas básicas (soma, subtração, multiplicação e divisão) para ser aplicada na tabela.
+
+Ao clicar no botão "Gerar", a tabela é criada com os resultados da operação escolhida para cada número da sequência informada. Caso a operação escolhida seja a divisão, o resultado será exibido somente se for um número inteiro. Caso contrário, a célula da tabela correspondente a essa operação exibirá "n/a".
+
+O projeto também possui um botão "Zerar" que permite limpar a tabela e os campos de entrada para que o usuário possa gerar uma nova tabela com facilidade. Espero que isso ajude a entender melhor o projeto!
 
 - HTML 5
 - CSS 3
