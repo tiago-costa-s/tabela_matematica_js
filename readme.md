@@ -1,4 +1,4 @@
-# Tabuada Matemática
+# Tabela Matemática
 
 ## Descrição
 
