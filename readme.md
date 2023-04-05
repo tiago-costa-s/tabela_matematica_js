@@ -1,4 +1,4 @@
-# Tabela Matemática
+# Tabela Matemática js
 
 ## Descrição
 
