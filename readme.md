@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Link: tabelamatematica.netlify.app
+Link: https://tabelamatematica.netlify.app/
 
 Esse projeto consiste em uma tabela matemática que permite ao usuário informar um número e o tamanho da tabela desejada. Além disso, é possível escolher uma das quatro operações matemáticas básicas (soma, subtração, multiplicação e divisão) para ser aplicada na tabela.
 
