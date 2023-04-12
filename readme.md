@@ -2,6 +2,8 @@
 
 ## Descrição
 
+Link: tabelamatematica.netlify.app
+
 Esse projeto consiste em uma tabela matemática que permite ao usuário informar um número e o tamanho da tabela desejada. Além disso, é possível escolher uma das quatro operações matemáticas básicas (soma, subtração, multiplicação e divisão) para ser aplicada na tabela.
 
 Ao clicar no botão "Gerar", a tabela é criada com os resultados da operação escolhida para cada número da sequência informada. Caso a operação escolhida seja a divisão, o resultado será exibido somente se for um número inteiro. Caso contrário, a célula da tabela correspondente a essa operação não será exibida.
